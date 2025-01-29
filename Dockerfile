@@ -8,7 +8,7 @@ WORKDIR /app
 COPY target/contactapi-0.0.1-SNAPSHOT.jar /app/contactapi.jar
 
 # Expose the port on which your application will run
-EXPOSE 8080
+EXPOSE 7517
 
 # Command to run the JAR file
 ENTRYPOINT ["java", "-jar", "contactapi.jar"]

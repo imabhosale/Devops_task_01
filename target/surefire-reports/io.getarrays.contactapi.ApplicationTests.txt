@@ -1,4 +1,4 @@
 -------------------------------------------------------------------------------
 Test set: io.getarrays.contactapi.ApplicationTests
 -------------------------------------------------------------------------------
-Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.484 s - in io.getarrays.contactapi.ApplicationTests
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 6.313 s - in io.getarrays.contactapi.ApplicationTests

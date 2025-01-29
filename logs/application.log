@@ -1,0 +1,22 @@
+2025-01-29T22:31:26.565+05:30  INFO 26516 --- [main] i.getarrays.contactapi.ApplicationTests  : Starting ApplicationTests using Java 17.0.12 with PID 26516 (started by abhis in D:\new_dev\contactapi-main)
+2025-01-29T22:31:26.567+05:30  INFO 26516 --- [main] i.getarrays.contactapi.ApplicationTests  : No active profile set, falling back to 1 default profile: "default"
+2025-01-29T22:31:27.329+05:30  INFO 26516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-01-29T22:31:27.375+05:30  INFO 26516 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 38 ms. Found 1 JPA repository interfaces.
+2025-01-29T22:31:27.785+05:30  INFO 26516 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-01-29T22:31:27.846+05:30  INFO 26516 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.13.Final
+2025-01-29T22:31:27.849+05:30  INFO 26516 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2025-01-29T22:31:28.177+05:30  INFO 26516 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-01-29T22:31:28.205+05:30  INFO 26516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-01-29T22:31:29.830+05:30  INFO 26516 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4cc7e3ad
+2025-01-29T22:31:29.832+05:30  INFO 26516 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-01-29T22:31:29.913+05:30  WARN 26516 --- [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-01-29T22:31:30.690+05:30  INFO 26516 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-01-29T22:31:30.925+05:30  INFO 26516 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-01-29T22:31:31.296+05:30  WARN 26516 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-01-29T22:31:31.736+05:30  INFO 26516 --- [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 2 endpoint(s) beneath base path '/actuator'
+2025-01-29T22:31:31.795+05:30  INFO 26516 --- [main] i.getarrays.contactapi.ApplicationTests  : Started ApplicationTests in 5.455 seconds (process running for 6.324)
+2025-01-29T22:31:32.309+05:30  INFO 26516 --- [main] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [io.getarrays.contactapi.FileuploadanddownloadApplicationTests]: FileuploadanddownloadApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-01-29T22:31:32.311+05:30  INFO 26516 --- [main] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration io.getarrays.contactapi.Application for test class io.getarrays.contactapi.FileuploadanddownloadApplicationTests
+2025-01-29T22:31:32.353+05:30  INFO 26516 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-01-29T22:31:32.355+05:30  INFO 26516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-01-29T22:31:32.792+05:30  INFO 26516 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.

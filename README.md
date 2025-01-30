@@ -232,4 +232,4 @@ http://13.233.124.207:3000/contacts
 
 ## Monitoring URL
 
-http://35.154.66.198:3000/
+http://35.154.66.198:3000/d/AWSEc2000/aws-ec2?orgId=1&from=now-24h&to=now&timezone=browser&var-datasource=cebj0y4z72vpce&var-region=ap-south-1&var-instancename=devops-task-larger&var-instanceid=i-0ec6c053fdebf96e1&var-volumeid=vol-0f301b060a9d0489f&var-instancetype=t2.large

@@ -2,16 +2,16 @@ pipeline {
     agent any
 
     environment {
-        AWS_ACCOUNT_ID = "211125753995"  // Replace with your AWS account ID
-        AWS_DEFAULT_REGION = "ap-south-1"  // Replace with your AWS region
-        BACKEND_REPO_NAME = "backend-repo"  // Replace with your backend ECR repository name
-        FRONTEND_REPO_NAME = "frontend-repo"  // Replace with your frontend ECR repository name
-        BACKEND_IMAGE_TAG = "backend-latest"  // Tag for your backend image
-        FRONTEND_IMAGE_TAG = "frontend-latest"  // Tag for your frontend image
+        AWS_ACCOUNT_ID = "211125753995"  
+        AWS_DEFAULT_REGION = "ap-south-1"  
+        BACKEND_REPO_NAME = "backend-repo"  
+        FRONTEND_REPO_NAME = "frontend-repo" 
+        BACKEND_IMAGE_TAG = "backend-latest" 
+        FRONTEND_IMAGE_TAG = "frontend-latest"  
         REPOSITORY_URI_BACKEND = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${BACKEND_REPO_NAME}"
         REPOSITORY_URI_FRONTEND = "${AWS_ACCOUNT_ID}.dkr.ecr.${AWS_DEFAULT_REGION}.amazonaws.com/${FRONTEND_REPO_NAME}"
-        BACKEND_IP = "13.233.124.207"  // IP of your EC2 instance for backend
-        FRONTEND_IP = "13.233.124.207"  // IP of your EC2 instance for frontend
+        BACKEND_IP = "13.233.124.207"  // IP of your for backend
+        FRONTEND_IP = "13.233.124.207"  // IP of your for frontend
     }
 
     stages {
